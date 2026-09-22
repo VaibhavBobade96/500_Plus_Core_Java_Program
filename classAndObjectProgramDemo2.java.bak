@@ -1,0 +1,42 @@
+//5.  Multiple objects 
+
+class student{
+
+ int id;
+ String name;
+
+  void showDetails(int x, String y)
+  {
+     id = x; 
+     name = y;
+    System.out.println("id :"+id);
+    System.out.println("name :"+name);
+  }
+
+}
+
+public class classAndObjectProgramDemo2{
+
+  public static void main(String[] args){
+
+  student s = new student();
+  s.showDetails(101, "Vaibhav");
+  System.out.println();
+  s.showDetails(102, "Prashant");
+    System.out.println();
+
+  s.showDetails(103, "Ram");
+    System.out.println();
+
+  s.showDetails(104, "Rohan");
+    System.out.println();
+
+  s.showDetails(105, "Abhimanyue");
+    System.out.println();
+
+
+
+  }
+
+}
+ 

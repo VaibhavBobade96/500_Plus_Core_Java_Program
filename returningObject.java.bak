@@ -1,0 +1,30 @@
+//7.  Returning object from method 
+
+
+class student
+{
+  int id;
+  String name;
+}
+
+public class returningObject{
+
+  static void getValue()
+  {
+    student s = new student();
+    s.id = 101;
+    s.name = "Vaibhav";
+
+    return s;
+   }
+
+   public static void main(String[] args)
+   {
+     student s1 = getValue();
+     
+     System.out.println("Print Name :" +s1.name);
+     System.out.println("Print ID:"+s1.id);
+
+   }
+
+ }

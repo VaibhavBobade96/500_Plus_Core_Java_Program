@@ -1,0 +1,19 @@
+//Static block
+
+public class StaticBlock1{
+ 
+  int age;
+
+  static 
+  {
+    age = 22;
+
+  }
+
+ public static void main(String[] args){
+
+   System.out.println(age);
+
+ }
+
+}

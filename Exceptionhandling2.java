@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Exceptionhandling2{
+ 
+    public static void main(String args[]){
+
+    try{
+
+        int arr[] = {10, 20, 30};
+
+	   System.out.println(arr[8]);
+
+	}
+
+   catch(ArrayIndexOutOfBoundsException e){
+
+       System.out.println("Invalid Array Index");
+     
+     }
+
+   }
+
+}

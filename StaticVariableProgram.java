@@ -1,0 +1,44 @@
+//Static variable
+
+public class StaticVariableProgram{
+
+  static String collegeName = "mgm college cs and it Nanded";
+  int id ;
+  String name;
+
+  void display()
+  {
+    System.out.println("College Name :"+collegeName);
+    System.out.println("college id :" +101);
+    System.out.println(" Student Name :" +name);
+
+  }
+
+  public static void main(String[] args){
+
+    StaticVariableProgram s = new StaticVariableProgram();
+    s.id = 101;
+	s.name = "Vaibhav";
+	s.display();
+
+	System.out.println();
+
+	StaticVariableProgram s2 = new StaticVariableProgram();
+    s2.id = 102;
+	s2.name = "Sandip";
+	s2.display();
+
+    System.out.println();
+
+	StaticVariableProgram s3 = new StaticVariableProgram();
+	s3.id = 103;
+	s3.name = "Satish";
+	s3.display();
+
+	System.out.println();
+
+
+	
+    }
+
+  }
